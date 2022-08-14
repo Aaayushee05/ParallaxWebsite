@@ -1,0 +1,115 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 180%;
+  color: black;
+  text-align: center;
+}
+.parallax1,.parallax2,.parallax3,.parallax4{
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parallax1{
+    background-image: url('images/shoes.jpg');
+   min-height: 100%;
+}
+.parallax2{
+    background-image: url('images/shoes1.webp');
+    min-height: 60%;
+}
+.parallax3{
+    background-image: url('images/shoes2.webp');
+    min-height: 60%;
+}
+.parallax4{
+    background-image: url('images/shoes3.webp');
+    min-height: 60%;
+}
+.heading01{
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    text-align: center;
+   color: blue;
+    font-size: 300%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+    
+}
+.heading02{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: maroon;
+    font-size: 350%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading03{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: maroon;
+    font-size: 350%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+}
+.heading04{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: maroon;
+    font-size: 350%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+}
+.two-col{
+    width: 100%;
+    padding:40px 60px ;
+    background-color:white;
+    align-items: center;
+    font-size: 140%;
+}
+.section{
+    overflow: auto;
+    padding: 50px 80px;
+}
+.dark{
+    overflow: auto;
+    padding: 50px 80px;
+    background-color:white;
+    font-size:small;
+}
+@media (max-width:768px){
+    .heading01{
+        font-size: 180%;
+    }
+    .heading02{
+        font-size: 180%;
+    }
+    .heading03{
+        font-size: 180%;
+    }
+    .heading04{
+        font-size: 180%;
+    }
+    .two-col{width: 100%;
+    padding: 0;
+    text-align: center;
+    }
+
+}
